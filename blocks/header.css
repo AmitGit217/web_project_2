@@ -41,7 +41,7 @@ ul {
 }
 .header__span-accent {
   display: block;
-  font-family: "Noto Serif", Serif;
+  font-family: "Noto Serif", serif;
   font-style: italic;
   font-weight: normal;
   font-size: 60px;
@@ -59,7 +59,7 @@ ul {
   margin-top: 0;
 }
 .header__description {
-  font-family: "Noto Serif", Serif;
+  font-family: "Noto Serif", serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
