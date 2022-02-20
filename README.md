@@ -13,4 +13,5 @@ This is the second project of the Web Development program at Practicum by Yandex
 
 ## Plan on improving the project
 
-Add your ideas here :)
+Adding a button for back to top easliy.
+Make the videos bigger.
