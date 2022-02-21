@@ -65,6 +65,7 @@ ul {
   font-size: 20px;
   line-height: 30px;
   margin-left: 80px;
+  width: 47%;
 }
 .header__image {
   z-index: 1;

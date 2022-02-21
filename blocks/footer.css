@@ -45,6 +45,7 @@
   line-height: 20px;
   color: #ffffff;
   margin-top: 0;
+  align-self: flex-end;
 }
 .footer__copyright {
   margin: 0;
