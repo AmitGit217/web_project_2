@@ -2,6 +2,7 @@
   background: linear-gradient(180deg, #0a2850 0%, #071931 100%);
   padding-top: 60px;
   border: none;
+  width: 100vw;
 }
 .footer__content {
   display: flex;

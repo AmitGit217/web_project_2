@@ -9,6 +9,7 @@
   flex-wrap: wrap;
   align-content: space-around;
   align-items: center;
+  width: 100vw;
 }
 .reservation__title {
   margin-top: 100px;

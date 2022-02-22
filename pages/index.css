@@ -12,8 +12,7 @@
   font-size: 16px;
   line-height: 20px;
   color: #000000;
-  background-color: #0a2750; /*This color is for removing the horizontal line between footer and about sections*/
 }
 html {
-  scroll-behavior: smooth;
+  overflow-x: hidden;
 }
