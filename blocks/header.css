@@ -1,4 +1,4 @@
-ul {
+.header__list {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -8,10 +8,13 @@ ul {
   background-image: url(../images/background_header.svg);
   background-repeat: no-repeat;
   background-size: cover;
+  min-height: 720px;
   height: 100vh;
-  width: 100vw;
+  background-position: center;
+  z-index: -1;
 }
-.logo {
+
+header .logo {
   margin: 30px auto 80px 30px;
 }
 .nav {
@@ -20,7 +23,6 @@ ul {
   align-items: flex-start;
 }
 .nav__links {
-  z-index: 2;
   margin-top: 30px;
   display: flex;
   align-items: center;
@@ -50,6 +52,7 @@ ul {
   color: #2f80ed;
 }
 .header__title {
+  position: relative;
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -58,22 +61,26 @@ ul {
   margin-left: 80px;
   margin-bottom: 28px;
   margin-top: 0;
+  z-index: 2;
 }
 .header__description {
+  position: absolute;
+  margin: 0 0 0 80px;
   font-family: "Noto Serif", serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
-  margin-left: 80px;
   width: 47%;
+  z-index: 2;
+  vertical-align: bottom;
 }
 .header__image {
-  z-index: 1;
   max-width: 636px;
   position: absolute;
   right: 5px;
   top: 124px;
+  z-index: 0;
 }
 .header__paragraph {
   position: absolute;
@@ -86,14 +93,13 @@ ul {
   display: flex;
   bottom: 40px;
   left: 80px;
-  width: 94.5vw;
+  width: 94vw;
 }
 .header__column-heading {
   margin: 0;
 }
 .header__address {
-  position: absolute;
   align-self: flex-end;
   margin-left: auto;
-  right: 80px;
+  margin-right: 80px;
 }

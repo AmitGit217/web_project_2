@@ -2,7 +2,6 @@
   background: linear-gradient(180deg, #0a2850 0%, #071931 100%);
   padding-top: 60px;
   border: none;
-  width: 100vw;
 }
 .footer__content {
   display: flex;
@@ -17,6 +16,7 @@
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+  list-style: none;
 }
 .footer__social-icon {
   margin-right: 10px;
@@ -59,4 +59,8 @@
   line-height: 20px;
   color: #ffffff;
   text-decoration: none;
+}
+.footer__social {
+  display: flex;
+  flex-direction: column;
 }
