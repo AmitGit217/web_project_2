@@ -17,9 +17,7 @@
   position: relative;
 }
 .about__title {
-  position: absolute;
-  top: 100px;
-  left: 80px;
+  margin: 80px 0 0 80px;
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -41,8 +39,12 @@
   font-size: 20px;
   line-height: 30px;
   color: #ffffff;
+  margin: 20px 0;
 }
-.about .about__circle {
+.about__paragraph:nth-last-child(1) {
+  margin-bottom: 0;
+}
+.about__circle {
   position: absolute;
   background-color: #2f80ed;
   width: 445px;
@@ -53,13 +55,5 @@
   z-index: 0;
 }
 .about__circle_animation_blurred {
-  position: absolute;
-  background-color: #2f80ed;
-  width: 445px;
-  height: 445px;
-  border-radius: 50%;
-  left: -129px;
-  top: -152px;
-  z-index: 0;
   animation: pulsate 1.3s ease-in-out 0s infinite;
 }

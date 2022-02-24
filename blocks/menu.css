@@ -22,6 +22,7 @@
   margin-top: 0;
 }
 .menu__subtitle {
+  margin: 0;
   max-width: 780px;
   align-self: center;
   font-family: "Noto Serif", sans-serif;
@@ -32,10 +33,9 @@
   text-align: center;
 }
 .menu__cards {
-  margin: 100px auto;
+  margin: 100px 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
   gap: 100px;
-  min-width: 1300px;
 }

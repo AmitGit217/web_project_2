@@ -34,10 +34,10 @@
   margin-left: 80px;
   margin-bottom: 28px;
   margin-top: 0;
-  z-index: 2;
+  z-index: 1;
 }
 .header__description {
-  position: absolute;
+  position: relative;
   margin: 0 0 0 80px;
   font-family: "Noto Serif", serif;
   font-style: normal;
@@ -45,8 +45,8 @@
   font-size: 20px;
   line-height: 30px;
   width: 47%;
-  z-index: 2;
   vertical-align: bottom;
+  z-index: 1;
 }
 .header__image {
   max-width: 636px;

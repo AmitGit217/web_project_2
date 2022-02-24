@@ -1,31 +1,25 @@
-.reservation__form {
-  margin-top: 80px;
-  box-sizing: border-box;
-  margin-right: 1.3%;
-}
 .form__fieldset {
+  box-sizing: border-box;
   border: none;
   padding: 0;
+  margin: 0;
   display: flex;
   flex-direction: column;
-  width: 100vw;
-  max-width: 385px;
+  width: 100%;
+  flex-wrap: wrap;
+  align-content: center;
 }
 .form__input {
+  box-sizing: border-box;
   border-radius: 4px;
   margin-bottom: 32px;
   width: 100%;
   height: 100%;
-  font-family: "Inter", sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
-  line-height: 30px;
-  color: #838383;
   padding: 4%;
   border: solid 0.5px gray;
 }
 .form__button {
+  box-sizing: border-box;
   border-radius: 4px;
   display: block;
   margin: auto;
@@ -35,7 +29,7 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
-  width: 110%;
+  min-width: 385px;
   height: 100%;
   border: none;
   padding: 5%;
@@ -50,10 +44,10 @@
   width: 18px;
   height: 18px;
   border-radius: 2px;
+  margin-right: 12px;
 }
 
 .form__label {
-  margin-left: 12px;
   margin-top: 0;
   margin-bottom: 8px;
   font-family: "Inter", sans-serif;
@@ -61,4 +55,12 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
+}
+::placeholder {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  color: #838383;
 }
