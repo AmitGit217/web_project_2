@@ -39,37 +39,3 @@
   gap: 100px;
   min-width: 1300px;
 }
-.card {
-  max-width: 600px;
-  width: 100%;
-}
-.card__title {
-  font-family: "Inter", sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 20px;
-  line-height: 30px;
-  margin-top: 0;
-  margin-bottom: 32px;
-}
-.card__list-item {
-  margin-top: 16px;
-  font-family: "Noto Serif", serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 20px;
-  display: flex;
-  justify-content: space-between;
-}
-.card__list-divider {
-  display: block;
-  border-bottom: 1px #fff solid;
-  flex-grow: 1;
-  margin: 0 1%;
-}
-
-.card__list {
-  padding: 0;
-  margin-top: 0;
-}
